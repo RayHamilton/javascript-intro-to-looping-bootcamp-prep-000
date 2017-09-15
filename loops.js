@@ -14,7 +14,7 @@ function whileLoop(num){
   var countDown = num
   while (countDown > 0){
     console.log(countDown)
-    num--
+    countDown--
   }
   console.log("done")
 }
